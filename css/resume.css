@@ -1,0 +1,277 @@
+body {
+  font-family: 'Lato', sans-serif;
+  padding-top: 54px;
+  color: #696B6D;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 17rem;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #343a40;
+}
+
+h1 {
+  font-size: 5rem;
+  line-height: 5.5rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3.5rem;
+
+}
+
+h3{
+  text-align: center;
+}
+
+.widthmeng{
+  width: 200%;
+  text-align: center;
+}
+
+.lijn{
+  height: 4px;
+  width: 8%;
+  background-color: RGBA(183, 35, 82, 1.00);
+  border-radius: 20px;
+}
+
+.home h1{
+  margin-left: 20px;
+}
+
+.home h3{
+  font-size: 2.3em;
+  color: #696B6D;
+}
+
+.lijn-hoofd{
+  height: 4px;
+  width: 8%;
+  background-color: RGBA(183, 35, 82, 1.00);
+  border-radius: 20px;
+  position: absolute;
+  left: 60%;
+  margin-right: -40%;
+  transform: translate(-50%, -50%) }
+}
+
+.secundairkleur{
+  margin-left: 150px !important;
+}
+
+.middenlogo{
+  margin-left: 60%;
+}
+
+.waarden{
+  width: 50px;
+}
+
+.subheading {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Saira Extra Condensed', serif;
+  font-size: 1.35rem;
+}
+
+.square {
+  height: 50px;
+  width: 50px;
+  background-color: #555;
+}
+
+.list-social-icons a {
+  color: #495057;
+}
+
+.list-social-icons a:hover {
+  color: #BD5D38;
+}
+
+.list-social-icons a .fa-lg {
+  font-size: 1rem;
+}
+
+.list-icons {
+  font-size: 3rem;
+}
+
+.list-icons .list-inline-item i:hover {
+  color: #BD5D38;
+}
+
+.rtitel{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+
+.rlight{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+.rregular{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+.rmedium{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+.ltitel{
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+
+.llight{
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+.lregular{
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+.lmedium{
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 400;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  color: #565757;
+}
+
+.navbar-nav a{
+  color: #565757;
+  padding-top: 0rem !important;
+}
+
+.navbar-nav a:hover, a:active{
+  color: #B72352 !important;
+}
+
+.home{
+  padding-left: 50px;
+}
+
+.home img{
+  width: 70%;
+  height: 70%;
+  padding: 30px;
+  margin-top: 30px;
+}
+
+@media (min-width: 992px) {
+  #sideNav {
+    text-align: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+  }
+  #sideNav .navbar-brand {
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem;
+  }
+  #sideNav .navbar-brand .img-profile {
+    max-width: 13rem;
+    max-height: 13rem;
+    padding-bottom: 1rem;
+  }
+  #sideNav .navbar-collapse {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+  }
+  #sideNav .navbar-collapse .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item {
+    display: block;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block;
+  }
+}
+
+section.resume-section {
+  border-bottom: 1px solid #dee2e6;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+section.resume-section .resume-item .resume-date {
+  min-width: none;
+}
+
+section.resume-section .resume-item{
+  width: 900px;
+  padding-left: 100px;
+  padding-right: 30px;
+}
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
+  }
+  section.resume-section .resume-item .resume-date {
+    min-width: 18rem;
+  }
+}
+
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+
+.bg-primary {
+  background-color: #FFFFFF !important;
+  border-right: 1px solid #696B6D;
+}
+
+.text-primary {
+  color: #BD5D38 !important;
+}
+
+a {
+  color: #696B6D;
+}
+
+a:hover, a:focus, a:active {
+  color: #B72352 !important;
+}
