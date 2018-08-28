@@ -1,5 +1,5 @@
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Maven Pro', sans-serif;
   padding-top: 54px;
   color: #696B6D;
 }
@@ -17,16 +17,14 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lato', sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #343a40;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 500;
+  color: #EC8732;
 }
 
 h1 {
   font-size: 5rem;
   line-height: 5.5rem;
-  text-align: center;
 }
 
 h2 {
@@ -34,8 +32,8 @@ h2 {
 
 }
 
-h3{
-  text-align: center;
+.web{
+  margin-top: 20px;
 }
 
 .widthmeng{
@@ -43,11 +41,13 @@ h3{
   text-align: center;
 }
 
-.lijn{
-  height: 4px;
-  width: 8%;
-  background-color: RGBA(183, 35, 82, 1.00);
-  border-radius: 20px;
+.mySlides{
+  width: 80%;
+  height: 80%;
+}
+
+.postcard{
+  width: 70%;
 }
 
 .home h1{
@@ -59,14 +59,18 @@ h3{
   color: #696B6D;
 }
 
+.minimaal{
+  margin-top: 25px;
+}
+
 .lijn-hoofd{
   height: 4px;
   width: 8%;
-  background-color: RGBA(183, 35, 82, 1.00);
+  background-color: #EC8732;
   border-radius: 20px;
   position: absolute;
-  left: 60%;
-  margin-right: -40%;
+  margin-left: 60px;
+  margin-top: 5px;
   transform: translate(-50%, -50%) }
 }
 
@@ -83,7 +87,6 @@ h3{
 }
 
 .subheading {
-  text-transform: uppercase;
   font-weight: 500;
   font-family: 'Saira Extra Condensed', serif;
   font-size: 1.35rem;
@@ -116,72 +119,75 @@ h3{
 }
 
 .rtitel{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Maven Pro', sans-serif;
   font-weight: 400;
   font-size: 2.5rem;
 }
 
 .rlight{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Maven Pro', sans-serif;
   font-weight: 300;
 }
 
 .rregular{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Maven Pro', sans-serif;
   font-weight: 400;
 }
 
 .rmedium{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Maven Pro', sans-serif;
   font-weight: 700;
 }
 
 .ltitel{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Maven Pro', sans-serif;
   font-weight: 400;
   font-size: 2.5rem;
 }
 
 .llight{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Maven Pro', sans-serif;
   font-weight: 300;
 }
 
 .lregular{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Maven Pro', sans-serif;
   font-weight: 400;
 }
 
 .lmedium{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Maven Pro', sans-serif;
   font-weight: 700;
+}
+
+.tablelogo td{
+  padding-right: 25px;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 400;
   font-size: 0.9rem;
-  text-transform: uppercase;
   color: #565757;
 }
 
 .navbar-nav a{
-  color: #565757;
+  color: #1697A9;
   padding-top: 0rem !important;
 }
 
 .navbar-nav a:hover, a:active{
-  color: #B72352 !important;
+  color: #1697A9 !important;
 }
 
 .home{
-  padding-left: 50px;
+  padding-left: 25%;
 }
 
 .home img{
   width: 70%;
   height: 70%;
   padding: 30px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 @media (min-width: 992px) {
@@ -201,8 +207,8 @@ h3{
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
-    max-width: 13rem;
-    max-height: 13rem;
+    max-width: 10rem;
+    max-height: 10rem;
     padding-bottom: 1rem;
   }
   #sideNav .navbar-collapse {
@@ -225,7 +231,6 @@ h3{
 }
 
 section.resume-section {
-  border-bottom: 1px solid #dee2e6;
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
   background-image: url("../img/background.png");
@@ -238,9 +243,21 @@ section.resume-section .resume-item .resume-date {
 }
 
 section.resume-section .resume-item{
-  width: 900px;
-  padding-left: 100px;
-  padding-right: 30px;
+  width: 1000px;
+  text-align: left;
+}
+section.resume-section .intro{
+  width: 1000px;
+  text-align: left;
+  margin-left: 100px;
+}
+
+.resume-content2{
+  margin-top: 20px;
+}
+
+.resume-content2 li{
+  margin-bottom: 10px;
 }
 
 @media (min-width: 768px) {
@@ -273,5 +290,5 @@ a {
 }
 
 a:hover, a:focus, a:active {
-  color: #B72352 !important;
+  color: #1697A9 !important;
 }
